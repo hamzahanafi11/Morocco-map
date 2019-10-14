@@ -1,4 +1,3 @@
-package src;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
