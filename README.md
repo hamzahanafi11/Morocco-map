@@ -10,13 +10,12 @@ download the project or clone it and then do the following :
 
 ### Build the project : 
 ```
-cd Project/src
-javac CarteMaroc.java
+javac src/CarteMaroc.java
 ```
 
 ### Run the project : 
 ```
-java CarteMaroc
+java src/CarteMaroc
 ```
 
 ### How it works : 
