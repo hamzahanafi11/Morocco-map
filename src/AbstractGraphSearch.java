@@ -1,3 +1,4 @@
+package src;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,15 +16,15 @@ abstract public class AbstractGraphSearch implements Serializable {
 
     final public static int MAX = 500;
     static ArrayList<Ville> villes;
-    protected int num_path = 0;
-    protected static int[] link_1 = new int[MAX];
-    protected static int[] link_2 = new int[MAX];
-    protected int[] lengths = new int[MAX];
-    protected int maxDepth;
-    protected Ville[] searchPath = new Ville[MAX];
-    protected boolean isSearching = true;
-    protected static int numLinks = 0;
-    protected Ville goalNodeIndex = null, startNodeIndex = null, currentLoc = null;
+    int num_path = 0;
+    public static int[] link_1 = new int[MAX];
+    public static int[] link_2 = new int[MAX];
+    public int[] lengths = new int[MAX];
+    public int maxDepth;
+    public Ville[] searchPath = new Ville[MAX];
+    public boolean isSearching = true;
+    public static int numLinks = 0;
+    public Ville goalNodeIndex = null, startNodeIndex = null, currentLoc = null;
 
     public void addNode(Ville v) {
         System.out.println("ajout de la ville : " + v.getNameVille() + ", " + v.getX() + ", " + v.getY());

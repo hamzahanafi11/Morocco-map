@@ -1,3 +1,4 @@
+package src;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -38,7 +39,7 @@ public class Panel extends JPanel {
         super.paintComponent(g);
         try {
 
-            Image image = ImageIO.read(new File("src/../Data/map.png"));
+            Image image = ImageIO.read(new File("./src/Data/map.png"));
             g.drawImage(image, 0, 0, this);
             if (!villes.isEmpty()) {
                 for (Ville item : villes) {

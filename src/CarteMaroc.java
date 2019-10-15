@@ -1,3 +1,4 @@
+package src;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -8,6 +9,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.*;
 import java.util.ArrayList;
+import src.*;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

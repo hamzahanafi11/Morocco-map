@@ -1,3 +1,4 @@
+package src;
 
 import java.awt.Dimension;
 import java.io.Serializable;
