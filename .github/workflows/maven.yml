@@ -14,9 +14,9 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with java
-      run: mkdir classes; ls ;javac -d classes src/*.java
-    - name: prepare artifact and data
-      run: cp src/Data classes
+      run: mkdir classes ; javac -d classes src/*.java; ls classes
+    - name: prepare artifacts data
+      run: cp -r src/Data classes; ls classes
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
