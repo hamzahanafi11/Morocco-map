@@ -14,12 +14,12 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with java
-      run: javac -d target src/CarteMaroc.java
+      run: ls;javac -d classes src/*.java
     - name: prepare artifact and data
-      run: cp src/Data target
+      run: cp src/Data classes
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
         name: CarteMaroc
-        path: target
+        path: classes
 
