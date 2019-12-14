@@ -16,7 +16,7 @@ jobs:
     - name: Build with java
       run: mkdir classes ; javac -d classes src/*.java; ls classes
     - name: prepare artifacts data
-      run: cp -r src/Data classes; ls classes
+      run: cp -r src/Data classes/src
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
