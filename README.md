@@ -1,4 +1,4 @@
-# Morocco-map By Hamza
+# Morocco-map application by Hamza Hanafi
 
 This java application show the use of search algorithms on a map between cities. You can add new city and link it with others then you can search for path between two cities using one of algorithms : BFS, DFS, A-star 
 
