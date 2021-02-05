@@ -9,7 +9,7 @@ This project is using github Actions for Continues Integration, you can download
 java src/CarteMaroc
 ```
 
-## Clone the project 
+## Building and runing the project 
 
 ### How to run the project
 
